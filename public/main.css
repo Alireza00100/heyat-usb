@@ -1,0 +1,4188 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@font-face {
+    font-family: "yekan";
+    src: url(../fonts/Yekan.eot);
+    src: url(../fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(../fonts/Yekan.woff) format("woff"), url(../fonts/Yekan.ttf) format("truetype"), url(../fonts/Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow-x: scroll;
+    /*direction: rtl;*/
+    /*position: absolute;*/
+}
+
+.con-tainer{
+    direction: rtl;
+}
+#top-bar{
+    direction: rtl;
+}
+#footer{
+    direction: rtl;
+}
+
+/*.slider-wrapper-in {*/
+/*background-image: url(../img/202.jpg);*/
+/*width: 100%;*/
+/*!* max-width: 400px; *!*/
+/*!* height: auto; *!*/
+/*min-height: 800px;*/
+/*background-attachment: fixed;*/
+/*background-repeat: no-repeat;*/
+/*background-size: cover;*/
+/*}*/
+
+.slider-wrapper-in img.main-image{
+    width: 100%;
+    /* margin-top: 72px; */
+    /* height: 812px; */
+    /* margin-left: 100px; */
+    /* position: relative; */
+    /* right: -9%; */
+    object-fit: contain;
+    opacity: .5;
+}
+.slider-wrapper-in2 img.main-image{
+    width: 100%;
+    /* margin-top: 72px; */
+    /* height: 812px; */
+    /* margin-left: 100px; */
+    /* position: relative; */
+    /* right: -9%; */
+    object-fit: contain;
+    opacity: .5;
+}
+.slider-wrapper-in3 img.main-image{
+    width: 100%;
+    /* margin-top: 72px; */
+    /* height: 812px; */
+    /* margin-left: 100px; */
+    /* position: relative; */
+    /* right: -9%; */
+    object-fit: contain;
+    opacity: .5;
+}
+
+.header-image{
+    width: 100%;
+    /* margin-top: 72px; */
+    /* height: 812px; */
+    /* margin-left: 100px; */
+    /* position: relative; */
+    /* right: -9%; */
+    object-fit: contain;
+    opacity: 1;}
+ .box {
+     position: absolute;
+     top: 211px;
+     right: 900px;
+     height: 350px;
+     width: 414px;
+     background-color: white;
+ }
+
+
+  .push-img{
+      position: absolute;
+      top: 211px;
+      right: 217px;
+      height: 350px;
+      width: 414px;
+      background-color: white;
+      border-radius: 60%;
+  }
+
+ .eskan-container{
+ background: white;
+ width: 80%;
+ height: 1000px;
+ /* padding-top: 10%; */
+padding: 10% 10%;
+vertical-align: middle;
+}
+
+ .box-link{
+     background-color: aqua;
+     /* width: 100%; */
+     display: block;
+     height: 23%;
+ }
+
+ .box-content{
+     padding: 10px;
+     direction: rtl;
+     font-size: 26px;
+ }
+
+.container {
+
+width: 960px;
+
+
+margin: 0 auto;
+
+}
+
+.eskan-container .border{
+position: relative;
+background: wheat;
+height: 60%;
+border: 2px solid black;
+border-radius: 13px;
+}
+
+.karvan{
+position: absolute;
+width: 39%;
+height: 59%;
+/* right: 14%; */
+/* margin: 0px 2% 0px 0px; */
+/* padding: 0px 3%; */
+border-radius: 20px;
+border: 1px solid black;
+top: 5%;
+right: 5%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav{
+    direction: rtl;
+}
+
+li{
+    display: inline-block;
+}
+
+.top-bar-top-header .container{
+    margin-right: 0;
+    width: 100% !important;
+    direction: rtl;
+}
+.eskan-container .border .karvan-container .karvan span.span1   {
+position: absolute;
+right: 29%;
+font-size: 30px;
+background: white;
+top: -7%;
+padding: 0px 6px;
+font-family: "B Yekan";
+}
+
+.karvan-name span{
+
+}
+
+.karvan-usb{
+    margin-top: 45px;
+}
+
+.eskan-container .border .karvan-container .karvan-management span{
+position: absolute;
+right: 26%;
+font-size: 30px;
+background: white;
+top: -7%;
+padding: 0px 6px;
+font-family: "B Yekan";
+}
+
+.karvan-management{
+position: absolute;
+width: 39%;
+height: 59%;
+margin-right: 42%;
+border: 1px solid black;
+border-radius: 20px;
+/* margin-top: 4%; */
+top: 5%;
+left: 5%;
+}
+
+.karvan-container{
+position: relative;
+width: 93%;
+height: 83%;
+/* margin-top: 3%; */
+/* margin-right: 3%; */
+/* margin-bottom: -4%; */
+top: 11%;
+right: 3%;
+/* border: 1px solid; */
+}
+
+.karvan-name{
+/*padding: 10px 58px;*/
+    padding: 11px 5%;
+}
+
+.karvan-sub{
+    margin-top: 41px;
+}
+
+.karvan-name-divlable {
+    display: inline-block;
+    width: 34% !important;
+    font-family: b yekan;
+    font-size: 17px;
+}
+
+.karvan-management-sub{
+    margin-top: 41px;
+}
+
+input[type=submit]{
+
+}
+
+.karvan-name input{
+line-height: normal;
+border-radius: 10px !important;
+margin-right: 11%;
+height: 30px;
+border: 2px solid;
+    outline: none;
+    border-style: inset !important;
+    padding-right: 10px !important;
+}
+
+.karvan-name input:focus{
+    background: lightgray;
+}
+.karvan-management form{
+margin: 3%;
+margin-top: 10%;
+}
+
+.karvan form{
+margin: 3%;
+margin-top: 10%;
+}
+
+.eskan-container .border span.span2{
+    position: absolute;
+    right: 21%;
+    font-size: 30px;
+    background: white;
+    top: -4%;
+    padding: 0px 6px;
+    font-family: b yekan;
+}
+
+.karvan-name-divlable{
+display: inline-block;
+width: 32%;
+font-family: b yekan;
+font-size: 17px;
+}
+
+#top-bar {
+
+height: 60px;
+background: grey;
+width: 100%;
+/*position: fixed;*/
+z-index: 1;
+}
+
+#top-bar #top-right-menu {
+float: right;
+}
+
+#top-bar #top-right-menu ul {
+
+}
+
+#top-bar #top-right-menu ul li {
+
+float: right;
+margin-left: 10px;
+}
+
+#top-bar #top-right-menu ul li a {
+
+display: block;
+text-decoration: none;
+font-family: yekan;
+/* background: #FFFFFF; */
+padding: 3px 10px;
+color: white;
+transition: .3s;
+font-size: 18px;
+}
+
+#top-bar #top-right-menu ul li a:hover {
+border-bottom: 3px solid red;
+display: block;
+text-decoration: none;
+font-family: yekan;
+/* background: #FFFFFF; */
+padding: 3px 10px;
+color: white;
+transition: .2s;
+}
+
+#top-bar #top-right-menu ul li a i {
+
+float: right;
+margin: 4px 0 0 10px;
+}
+
+.container-x{
+position: relative;
+}
+
+#top-left-social {
+
+float: left;
+}
+
+#top-left-social ul {
+margin: 0;;
+}
+
+#top-left-social ul li {
+float: left;
+margin-right: 10px;
+height: 60px;
+padding: 0 0 0 15px;
+border-left: 1px solid #DDDDDD;
+}
+
+#top-left-social ul li:last-child {
+border-right: 1px solid #DDDDDD;
+padding-right: 10px;
+}
+
+#top-left-social ul li a {
+
+display: block;
+padding: 20px 10px 0;
+
+}
+
+#top-left-social ul li a i {
+font-size: 20px;
+}
+
+#top-left-social ul li a i.fa-facebook-official {
+color: #2b75b2;
+}
+
+#top-left-social ul li a i.fa-twitter {
+color: #1ea9e4;
+}
+
+#top-left-social ul li a i.fa-instagram {
+color: #25668c;
+}
+
+#top-left-social ul li a i.fa-google-plus {
+color: #dc406f;
+
+}
+
+#logo{
+background: darkseagreen;
+border-bottom: 2px solid black;
+}
+
+#logo a img {
+width: 2000px;
+/*margin-top: 72px;*/
+height: 812px;
+/*margin-left: 100px;*/
+/*position: relative;*/
+/*right: -9%;*/
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+/*!*start header*!*/
+/*#top-header {*/
+
+/*height: 200px;*/
+/*width: 100%;*/
+/*}*/
+
+/*#top-header #logo {*/
+/*float: right;*/
+/*padding-top: 20px;*/
+/*}*/
+
+/*#top-header #logo a {*/
+/*text-decoration: none;*/
+/*}*/
+
+/*#top-header #logo a h1 {*/
+/*display: inline-block;*/
+/*font-family: yekan;*/
+/*color: #6d6e72;*/
+/*margin-right: 20px;*/
+/*}*/
+
+/*#top-header #contact-bar {*/
+/*float: left;*/
+/*padding-top: 70px;*/
+/*font-size: 25px;*/
+/*}*/
+
+/*#top-header #contact-bar a {*/
+
+/*text-decoration: none;*/
+/*font-size: 25px;*/
+/*color: #6d6e72;*/
+/*-webkit-transition: all .3s;*/
+/*-moz-transition: all .3s;*/
+/*-ms-transition: all .3s;*/
+/*-o-transition: all .3s;*/
+/*transition: all .3s;*/
+/*padding: 10px;*/
+/*position: relative;*/
+/*}*/
+
+/*#top-header #contact-bar a:hover {*/
+/*color: #1eabe3;*/
+/*}*/
+
+/*#top-header #contact-bar a:before {*/
+/*content: attr(title);*/
+/*display: block;*/
+/*width: 150px;*/
+/*height: 25px;*/
+/*border: 2px solid #d4d4d4;*/
+/*padding: 2px;*/
+/*position: absolute;*/
+/*right: 0;*/
+/*-webkit-border-radius: 5px;*/
+/*-moz-border-radius: 5px;*/
+/*border-radius: 5px;*/
+/*top: -100%;*/
+/*opacity: 0;*/
+/*font-size: 15px;*/
+/*text-align: center;*/
+/*font-family: yekan;*/
+/*color: #6D6E72;*/
+/*-webkit-transform: translateX(40%);*/
+/*-moz-transform: translateX(40%);*/
+/*-ms-transform: translateX(40%);*/
+/*-o-transform: translateX(40%);*/
+/*transform: translateX(40%);*/
+/*-webkit-transition: all .3s;*/
+/*-moz-transition: all .3s;*/
+/*-ms-transition: all .3s;*/
+/*-o-transition: all .3s;*/
+/*transition: all .3s;*/
+/*line-height: 25px;*/
+/*}*/
+
+/*#top-header #contact-bar a:hover:before {*/
+
+/*opacity: 1;*/
+/*top: -80%;*/
+/*}*/
+
+/*#top-header #contact-bar a:after {*/
+
+/*content: '';*/
+/*position: absolute;*/
+/*border: 5px solid #DDDDDD;*/
+/*right: 0;*/
+/*border-right: 5px solid transparent;*/
+/*border-left: 5px solid transparent;*/
+/*border-bottom: 5px solid transparent;*/
+/*opacity: 0;*/
+/*top: -50%;*/
+/*-webkit-transition: all .3s;*/
+/*-moz-transition: all .3s;*/
+/*-ms-transition: all .3s;*/
+/*-o-transition: all .3s;*/
+/*transition: all .3s;*/
+/*right: 35%;*/
+
+/*}*/
+
+/*#top-header #contact-bar a:hover:after {*/
+/*top: -10%;*/
+/*opacity: 1;*/
+/*}*/
+
+/*!*end header*!*/
+/*start main menu wrapper*/
+#main-menu-wrapper {
+
+height: 60px;
+width: 100%;
+border-top: 1px solid #DDDDDD;
+border-bottom: 1px solid #DDDDDD;
+}
+
+#main-menu-wrapper #main-menu {
+float: right;
+}
+
+#main-menu-wrapper #main-menu ul {
+margin: 0;
+}
+
+#main-menu-wrapper #main-menu ul li {
+float: right;
+height: 60px;
+border-left: 1px solid #DDDDDD;
+}
+
+#main-menu-wrapper #main-menu ul li a {
+font-family: yekan;
+display: block;
+text-decoration: none;
+color: #6d6e72;
+padding: 5px 10px;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-ms-transition: all .3s;
+-o-transition: all .3s;
+transition: all .3s;
+padding-top: 15px;
+position: relative;
+}
+
+#main-menu-wrapper #main-menu ul li a:after {
+
+content: '';
+position: absolute;
+width: 0;
+height: 0;
+border: 10px solid #1faae1;
+top: 96%;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-top: 10px solid transparent;
+left: 50%;
+-webkit-transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+transform: translateX(-50%);
+opacity: 0;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-ms-transition: all .3s;
+-o-transition: all .3s;
+transition: all .3s;
+}
+
+#main-menu-wrapper #main-menu ul li a:hover {
+color: #1faae1;
+}
+
+#main-menu-wrapper #main-menu ul li a:hover:after {
+
+opacity: 1;
+}
+
+#top-search {
+float: left;
+}
+
+#top-search #search-input {
+margin-top: 15px;
+height: 28px;
+width: 200px;
+border: none;
+outline: none;
+font-size: 15px;
+font-family: yekan;
+}
+
+#top-search label {
+margin: 5px;
+}
+
+#top-search label i {
+font-size: 20px;
+}
+
+/*end main menu wrapper*/
+/*start slider*/
+#slider-wrapper {
+width: 100%;
+    height: auto;
+position: relative;
+    border-bottom: 2px solid black;
+}#slider-wrapper2 {
+width: 100%;
+height: auto;
+position: relative;
+    border-bottom: 2px solid black;
+}#slider-wrapper3 {
+width: 100%;
+height: auto;
+position: relative;
+      border-bottom: 2px solid black;
+}
+.back-color{
+    display: none;
+}
+
+.rslides {
+position: relative;
+list-style: none;
+overflow: hidden;
+width: 100%;
+padding: 0;
+margin: 0;
+}
+
+.rslides li {
+-webkit-backface-visibility: hidden;
+position: absolute;
+display: none;
+width: 100%;
+left: 0;
+top: 0;
+}
+
+.rslides li:first-child {
+position: relative;
+display: block;
+float: left;
+}
+
+.rslides img {
+display: block;
+height: auto;
+float: left;
+width: 100%;
+border: 0;
+}
+
+.rslides p.caption {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+width: 100%;
+margin: 0;
+background: rgba(0, 0, 0, .6);
+color: #FFFFFF;
+font-family: yekan;
+padding: 10px 30px 10px 10px;
+}
+
+#slider-wrapper .rslides1_nav {
+position: absolute;
+top: 50%;
+z-index: 999;
+color: #FFFFFF;
+font-size: 40px;
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+transform: translateY(-50%);
+
+}#slider-wrapper2 .rslides1_nav {
+position: absolute;
+top: 50%;
+z-index: 999;
+color: #FFFFFF;
+font-size: 40px;
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+transform: translateY(-50%);
+
+}#slider-wrapper3 .rslides1_nav {
+position: absolute;
+top: 50%;
+z-index: 999;
+color: #FFFFFF;
+font-size: 40px;
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+transform: translateY(-50%);
+
+}
+
+#slider-wrapper .rslides1_nav.prev {
+left: 5%;
+
+}
+#slider-wrapper2 .rslides1_nav.prev {
+left: 5%;
+
+}
+#slider-wrapper3 .rslides1_nav.prev {
+left: 5%;
+
+}
+
+#slider-wrapper .rslides1_nav.next {
+right: 5%;
+
+}#slider-wrapper2 .rslides1_nav.next {
+right: 5%;
+
+}#slider-wrapper2 .rslides1_nav.next {
+right: 5%;
+
+}
+
+/*end slider*/
+
+/*start main content*/
+#main-content, #featured-contnet {
+width: 100%;
+text-align: center;
+margin-top: 50px;
+}
+
+.nav-tab {
+padding: 10px 0;
+}
+
+.nav-tab ul {
+text-align: center;
+}
+
+.nav-tab ul li {
+
+display: inline-block;
+margin: 0 5px;
+}
+
+.nav-tab ul li a {
+text-decoration: none;
+font-family: yekan;
+font-size: 15px;
+color: #d4d4d4;
+border: 2px solid #d4d4d4;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 0 10px;
+}
+
+.nav-tab ul li a:hover {
+}
+
+.nav-tab ul li a.active {
+border-color: #909090;
+color: #909090;
+}
+
+#main-content .posts-container {
+
+text-align: center;
+}
+
+#main-content .posts-container .post-link, #featured-contnet .posts-container .post-link {
+display: block;
+margin-right: 20px;
+}
+
+#main-content .posts-container .post-link:hover .post .post-title {
+
+top: 80%;
+}
+
+#main-content .posts-container .post {
+
+-webkit-box-shadow: 0 0 5px #F3F3F3;
+-moz-box-shadow: 0 0 5px #555555;
+box-shadow: 0 0 5px #D2D2D2;
+float: right;
+margin-left: 10px;
+border: 1px solid #DDD;
+padding: 10px 10px 0;
+
+}
+
+#main-content .posts-container .post .post-inner {
+
+overflow: hidden;
+height: 150px;
+position: relative;
+width: 260px;
+margin: 0 auto;
+}
+
+#main-content .posts-container .post .post-inner .post-title {
+display: block;
+background-color: rgba(0, 0, 0, .6);
+color: #FFF;
+font-family: yekan;
+height: 30px;
+line-height: 30px;
+text-align: right;
+padding-right: 20px;
+position: absolute;
+z-index: 9999;
+top: 100%;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-ms-transition: all .3s;
+-o-transition: all .3s;
+transition: all .3s;
+width: 100%;
+}
+
+#main-content .posts-container .post .post-meta {
+width: 100%;
+margin-top: 5px;
+height: 30px;
+
+}
+
+#main-content .posts-container .post .post-meta span {
+font-family: yekan;
+font-size: 12px;
+padding: 2px;
+color: #818181;
+float: right;
+margin-left: 20px;
+}
+
+#main-content .posts-container .post .post-meta span i {
+margin-left: 3px;
+}
+
+.posts-container:not(:first-of-type) {
+
+display: none;
+}
+
+/*end main content*/
+
+/*start featured content*/
+#featured-contnet {
+margin-top: 30px;
+background: #efefef;
+padding: 20px 0;
+overflow: hidden;
+}
+
+#featured-contnet .post-wrapper {
+width: 200px;
+color: #FFFFFF;
+box-shadow: 0 0 3px #928F8F;
+background-color: #FFF;
+border-radius: 5px;
+float: right;
+margin-left: 8px;
+margin-bottom: 15px;
+padding: 10px;
+}
+
+.con-tainer{
+width: 1536px;
+}
+
+#featured-contnet .post-wrapper .post {
+overflow: hidden;
+position: relative;
+}
+
+#featured-contnet .post-wrapper .post:hover .title {
+
+bottom: 0;
+}
+
+#featured-contnet .post-wrapper .post .thumbnail {
+}
+
+#featured-contnet .post-wrapper .post .title {
+width: 100%;
+display: block;
+/* background-color: #000; */
+font-family: yekan;
+font-size: 12px;
+padding: 5px 0;
+text-align: right;
+padding-right: 10px;
+background: rgba(0, 0, 0, .5);
+position: absolute;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-ms-transition: all .3s;
+-o-transition: all .3s;
+transition: all .3s;
+bottom: -26px;
+}
+
+#featured-contnet .post-wrapper .post-meta {
+overflow: hidden;
+padding-right: 20px;
+padding-top: 5px;
+border-top: 1px solid #DDD;
+}
+
+#featured-contnet .post-wrapper .post-meta span {
+
+color: #686868;
+float: right;
+margin-left: 10px;
+font-family: yekan;
+font-size: 14px;
+}
+
+#featured-contnet .post-wrapper .post-meta span i {
+
+margin-left: 5px;
+}
+
+#featured-contnet .nav-tab ul li a {
+background: #FFFFFF;
+color: #ADADAD;
+}
+
+/*end featured content*/
+
+/*start team section*/
+#team-wrapper{
+
+text-align: center;
+}
+#team-wrapper #team-header{
+width: 50%;
+margin: 50px auto 0;
+}
+#team-wrapper #team-header .team-logo{
+float: right;
+}
+#team-wrapper #team-header .team-title{
+float: left;
+margin-top: 50px;
+}
+#team-wrapper #team-header .team-title h3{
+font-family: yekan;
+font-size: 30px;
+}
+#team-wrapper #team-members {
+width: 100%;
+float: right;
+margin-top: 20px;
+}
+#team-wrapper #team-members .team-member{
+
+background: #f5f5f5;
+width: 220px;
+float: right;
+margin-right: 20px;
+-webkit-box-shadow: 0 0 5px #DDD;
+-moz-box-shadow: 0 0 5px #DDD;
+box-shadow: 0 0 5px #DDD;
+font-family: yekan;
+
+
+}
+#team-wrapper #team-members .team-member p{
+font-size: 12px;
+color: #9c9c9c;
+}
+#team-wrapper #team-members .team-member .avatar{
+margin-top: 10px;
+text-align: center;
+
+}
+#team-wrapper #team-members .team-member .avatar img{
+
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+border: 5px solid #FFFFFF;
+-webkit-box-shadow: 0 0 5px #DDD;
+-moz-box-shadow: 0 0 5px #DDD;
+box-shadow: 0 0 5px #DDD;
+}
+
+#team-wrapper .team-member .team-social{
+background: #FFFFFF;
+height: 30px;
+margin: 10px 0;
+
+}
+#team-wrapper .team-member .team-social a{
+display: inline-block;
+color: #9b9b9b;
+margin: 0 10px;
+font-size: 20px;
+}
+
+/*end team section*/
+/*start statistics section*/
+#statistics{
+height: 300px;
+width: 100%;
+float: right;
+background: #efefef;
+margin-top: 50px;
+}
+#statistics .stat{
+width: 25%;
+text-align: center;
+float: right;
+}
+#statistics .stat span{
+display: block;
+font-family: yekan;
+font-size: 30px;
+color: #4e4e4e;
+}
+#statistics .stat .stat-title{
+margin-top: 40%;
+}
+#statistics .stat .stat-value{
+margin-top: 20px;
+}
+/*end statistics section*/
+/*start footer section*/
+#footer{
+background: #2e4053;
+float: right;
+width: 100%;
+/*height: 600px;*/
+}
+#footer .footer-details{
+margin-top: 20px;
+
+}
+#footer .footer-details .newsletter{
+width: 100%;
+background: #2e86c1;
+/* padding: 10px; */
+/* margin: 0 6%; */
+/*height: 120px;*/
+}
+
+.centered img{
+width: 19%;
+background: #2e86c1;
+border-radius: 36%;
+padding: 1%;
+/*color: white;*/
+margin: 18% 35%;
+}
+
+.box3 {
+    position: absolute;
+    top: 211px;
+    right: 900px;
+    height: 350px;
+    width: 414px;
+    /* background-color: white; */
+}
+
+.box-content3{
+    padding: 10px 0px;
+    direction: rtl;
+    font-size: 26px;
+    position: relative;
+}
+
+.box-color{
+    height: 324px;
+    background: white;
+    opacity: .3;
+}
+
+.box-paragraph{
+    position: absolute;
+    top: 0;
+    font-family: b yekan;
+    padding: 0px 5px;
+}
+
+.box-link{
+    background-color: #16A085;
+    /* width: 100%; */
+    color: white;
+    display: block;
+    padding: 0px 124px;
+    padding-top: 17px;
+    text-decoration: none;
+    font-size: 26px;
+    vertical-align: center;
+    height: 16%;
+    font-family: b yekan;
+}
+address{
+font-style: unset;
+font-size: 20px;
+font-family: b yekan;
+padding: 2% 1%;
+color: white;
+}
+
+.centered p{
+color: white;
+font-size: 19px;
+font-family: b yekan;
+padding: 0% 1%;
+}
+
+#footer .footer-details .newsletter input[type="text"]{
+border: none;
+background-color: transparent;
+font-family: yekan;
+float: left;
+width: 70%;
+outline: none;
+color: #7c7c7c;
+text-align: left;
+}
+#footer .footer-details .newsletter input[type="submit"]{
+border: none;
+background-color: #484c4d;
+color: #FFF;
+font-family: yekan;
+border-radius: 5px;
+font-size: 16px;
+padding: 1px 10px;
+}
+#footer .footer-details .newsletter  span{
+float: left;
+color: #7c7c7c;
+padding: 8px;
+}
+#footer .footer-details .social-share-links{
+float: left;
+width: 100%;
+text-align: center;
+display: inline-flex;
+padding: 0px;
+margin-top: 1%;
+/* height: 253px; */
+
+}
+
+.social-share-links{
+display: inline-flex;
+margin-top: 1%;
+width: 100%;
+height: 100%;
+}
+
+.centered{
+padding: 10px;
+}
+
+#footer .footer-details .social-share-links a{
+padding: 20px;
+border-right: 1px solid #3c3d3f;
+display: inline-block;
+}
+#footer .footer-details .social-share-links a i{
+color:#7c7c7c;
+font-size: 25px;
+}
+#footer .footer-copyright{
+
+}
+#footer .footer-copyright .footer-menu{
+float: right;
+
+}
+#footer .footer-copyright .footer-menu ul{
+
+}
+#footer .footer-copyright .footer-menu ul li{
+float: right;
+margin-left: 5px;
+}
+#footer .footer-copyright .footer-menu ul li a{
+display: block;
+padding: 5px;
+text-decoration: none;
+color:#7c7c7c;
+font-family: yekan;
+}
+#footer .footer-copyright .copyright{
+float: left;
+color: #7C796F;
+font-family: yekan;
+text-align: right;
+width: 45%;
+margin-top: 12px;
+}
+
+.footer-container{
+/*float: right;*/
+/* width: 88%; */
+margin: 1% 4%;
+/*height: 100%;*/
+/* position: relative; */
+}
+
+.right{
+float: right;
+width: 50%;
+/*background: wheat;*/
+}
+
+.left{
+float: right;
+width: 50%;
+/*background: yellow;*/
+margin: 0px;
+right: 0px;
+border-left: 4px solid black;
+padding: 0px;
+/* display: inline-grid; */
+}
+/*end footer section*/
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+border: 0;
+clip: rect(0 0 0 0);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+clip: auto;
+height: auto;
+margin: 0;
+overflow: visible;
+position: static;
+width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+content: " "; /* 1 */
+display: table; /* 2 */
+}
+
+.clearfix:after {
+clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+/*@media only screen and (min-width: 35em) {*/
+/*!* Style adjustments for viewports that meet the condition *!*/
+/*}*/
+
+/*@media print,*/
+/*(-webkit-min-device-pixel-ratio: 1.25),*/
+/*(min-resolution: 1.25dppx),*/
+/*(min-resolution: 120dpi) {*/
+/*!* Style adjustments for high resolution devices *!*/
+/*}*/
+
+/*!* ==========================================================================*/
+/*Print styles.*/
+/*Inlined to avoid the additional HTTP request:*/
+/*http://www.phpied.com/delay-loading-your-print-css/*/
+/*========================================================================== *!*/
+
+/*@media print {*/
+/**,*/
+/**:before,*/
+/**:after {*/
+/*background: transparent !important;*/
+/*color: #000 !important;*/
+/*!* Black prints faster:*/
+/*http://www.sanbeiji.com/archives/953 *!*/
+/*box-shadow: none !important;*/
+/*text-shadow: none !important;*/
+/*}*/
+
+/*a,*/
+/*a:visited {*/
+/*text-decoration: underline;*/
+/*}*/
+
+/*a[href]:after {*/
+/*content: " (" attr(href) ")";*/
+/*}*/
+
+/*abbr[title]:after {*/
+/*content: " (" attr(title) ")";*/
+/*}*/
+
+/*!**/
+/** Don't show links that are fragment identifiers,*/
+/** or use the `javascript:` pseudo protocol*/
+/**!*/
+/*a[href^="#"]:after,*/
+/*a[href^="javascript:"]:after {*/
+/*content: "";*/
+/*}*/
+
+/*pre,*/
+/*blockquote {*/
+/*border: 1px solid #999;*/
+/*page-break-inside: avoid;*/
+/*}*/
+
+/*!**/
+/** Printing Tables:*/
+/** http://css-discuss.incutio.com/wiki/Printing_Tables*/
+/**!*/
+/*thead {*/
+/*display: table-header-group;*/
+/*}*/
+
+/*tr,*/
+/*img {*/
+/*page-break-inside: avoid;*/
+/*}*/
+
+/*img {*/
+/*max-width: 100% !important;*/
+/*}*/
+
+/*p,*/
+/*h2,*/
+/*h3 {*/
+/*orphans: 3;*/
+/*widows: 3;*/
+/*}*/
+
+/*h2,*/
+/*h3 {*/
+/*page-break-after: avoid;*/
+/*}*/
+/*.split {*/
+/*height: 100%;*/
+/*width: 50%;*/
+/*position: fixed;*/
+/*z-index: 1;*/
+/*top: 0;*/
+/*overflow-x: hidden;*/
+/*padding-top: 20px;*/
+/*}*/
+
+/*.left {*/
+/*left: 0;*/
+/*background-color: #111;*/
+/*}*/
+
+/*.right {*/
+/*right: 0;*/
+/*background-color: red;*/
+/*}*/
+
+/*.centered {*/
+/*position: absolute;*/
+/*top: 50%;*/
+/*left: 50%;*/
+/*transform: translate(-50%, -50%);*/
+/*text-align: center;*/
+/*}*/
+
+/*.centered img {*/
+/*width: 150px;*/
+/*border-radius: 50%;*/
+/*}*/
+/*}*/
+
+/*@media all and (min-width: 992px) and (max-width: 1500px){*/
+    /*.con-tainer{*/
+        /*!*width: 960px;*!*/
+        /*border: 1px solid red;*/
+    /*}*/
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+.eskan-container .border{
+    background: white !important;
+}
+#logo a img {
+    width: 100%;
+    /* margin-top: 72px; */
+    height: 812px;
+    /* margin-left: 100px; */
+    /* position: relative; */
+    /* right: -9%; */
+    object-fit: contain;
+}
+.khadem-form input{
+    border-radius: 10px !important;
+    padding-right: 10px !important;
+    outline: none;
+}
+.khadem-form textarea{
+    outline: none;
+}
+.khadem-form textarea:focus{
+    outline: none;
+    background: lightgray;
+}
+.khadem-form input:focus{
+    background: lightgray;
+}
+@media all and (min-width: 1372px) and (max-width: 1471.98px){
+    .khadem-contain{
+        height: auto !important;
+        margin-bottom: 67px !important;
+    }
+
+    .khadem-button input{
+        outline: none;
+        transition: .3s;
+    }
+    .khadem-button input:hover{
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    .khadem1{
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 40%;
+        /*border: 2px solid black;*/
+        padding: 12px;
+        margin-top: 47px
+    }
+    .khadem2{
+        float: left;
+        display: inline-block;
+        width: 40%;
+        /*border: 2px solid saddlebrown;*/
+        padding: 14px;
+        margin-top: 47px
+    }
+    #btn-khadem1{
+
+    }
+    #btn-khadem2{
+
+    }
+    .btn-khadem {
+        /*position: unset !important;*/
+        top: 72px !important;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /* color: white; */
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: b yekan;
+    }
+
+    .khadem-button{
+        margin-top: 0px;
+        margin-right: 300px;
+    }
+
+    .khadem-input{
+        line-height: inherit !important;
+        display: block;
+        margin-bottom: 10px;
+        width: 56%;
+        border-radius: 10px;
+        display: inline-block !important;
+        margin-bottom: 10px !important;
+    }
+
+    .khadem-radio{
+        display: flex;
+        /*flex-wrap: wrap;*/
+        /* border: 1px solid black; */
+        padding: 10px;
+        /*padding-right: 179px;*/
+    }
+    textarea {
+        resize: vertical;
+        border-radius: 10px;
+    }
+
+    .con-tainer{
+        /*width: 960px;*/
+        width: 1300px;
+        margin: auto;
+        height: auto;
+    }
+    .karvan-name {
+        /* padding: 10px 58px; */
+        padding: 3% 4%;
+    }
+
+    .karvan-management-sub{
+        margin-top: 36px;
+    }
+
+    .karvan-sub{
+        margin-top: 36px;
+    }
+
+    .karvan-name-divlable {
+        display: inline-block;
+        width: 36%;
+        font-family: b yekan;
+        font-size: 15px;
+    }
+    .karvan form {
+        /* margin: 3%; */
+        margin-top: 10%;
+    }
+    .karvan-name input {
+        line-height: normal;
+        border-radius: 6px;
+        margin-right: 1%;
+        height: 30px;
+        border: 2px solid;
+    }
+    .eskan-container .border .karvan-container .karvan-management span {
+        position: absolute;
+        right: 17%;
+        font-size: 30px;
+        background: white;
+        top: -7%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .eskan-container .border .karvan-container .karvan span.span1 {
+        position: absolute;
+        right: 24%;
+        font-size: 30px;
+        background: white;
+        top: -7%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .karvan-container {
+        position: relative;
+        width: 93%;
+        height: 51%;
+        /* margin-top: 3%; */
+        /* margin-right: 3%; */
+        /* margin-bottom: -4%; */
+        top: 11%;
+        right: 3%;
+        /* border: 1px solid; */
+    }
+    .karvan {
+        position: absolute;
+        width: 39%;
+        height: 300px;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        top: 5%;
+        right: 5%;
+    }
+
+
+
+    input[type=submit] {
+        position: relative;
+        top: 506px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /*color: white;*/
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family:b yekan;
+    }
+
+    .karvan-management {
+        position: absolute;
+        width: 39%;
+        height: 300px;
+        /* margin-right: 42%; */
+        border: 1px solid black;
+        border-radius: 20px;
+        /* margin-top: 4%; */
+        top: 5%;
+        left: 5%;
+    }
+
+    #btn1:hover {
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn1{
+        position: relative;
+        top: 370px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /* color: white; */
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: b yekan;
+        right: 51%;
+        outline: none;
+        transition: .3s;
+    }
+
+    #btn2{
+        position: relative;
+        top: 370px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /* color: white; */
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: b yekan;
+        right: 11%;
+        outline: none;
+        transition: .3s;
+    }
+
+    #btn2:hover{
+        /*color: blue;*/
+        /*transition: .2s;*/
+        /*box-shadow: 2px 2px 5px black;*/
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+
+    .eskan-container {
+        background: white;
+        width: 80%;
+        height: 400px;
+        /* padding-top: 10%; */
+        padding: 10% 10%;
+        vertical-align: middle;
+    }
+
+    .eskan-container .border {
+        position: relative;
+        background: wheat;
+        height: 100%;
+        border: 2px solid black;
+        border-radius: 13px;
+    }
+
+}
+@media all and (min-width: 1029px) and (max-width: 1371.98px){
+    .push-img {
+        position: absolute;
+        top: 143px;
+        right: 107px;
+        height: 313px;
+        width: 353px;
+        background-color: white;
+        border-radius: 60%;
+    }
+    .box3 {
+        position: absolute;
+        top: 100px;
+        right: 585px;
+        height: 321px;
+        width: 414px;
+        /* background-color: white; */
+    }
+    .khadem-contain{
+        height: auto !important;
+    }
+    /*index page*/
+    .main{
+        /*width: 960px;*/
+        width: 100%;
+        /*margin: auto;*/
+        height: auto;
+    }
+    #logo a img {
+        width: 100%;
+        /* margin-top: 72px; */
+        height: 812px;
+        /* margin-left: 100px; */
+        /* position: relative; */
+        /* right: -9%; */
+        object-fit: contain;
+    }
+    /*#top-header{*/
+        /*border: 2px solid black;*/
+        /*!*padding: 25px;*!*/
+        /*background: url(../img/Amazon.png);*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: auto;*/
+    /*}*/
+    /* end index page*/
+
+    .khadem1{
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 40%;
+        /*border: 2px solid black;*/
+        padding: 12px;
+        margin-top: 47px
+    }
+    .khadem2{
+        float: left;
+        display: inline-block;
+        width: 40%;
+        /*border: 2px solid saddlebrown;*/
+        padding: 14px;
+        margin-top: 47px
+    }
+    #btn-khadem1{
+
+    }
+    #btn-khadem2{
+
+    }
+    .btn-khadem {
+        /*position: unset !important;*/
+        top: 72px !important;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /* color: white; */
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: b yekan;
+    }
+
+    .khadem-button{
+        margin-top: 0px;
+        margin-right: 208px;
+    }
+
+    .khadem-input{
+        line-height: inherit !important;
+        display: block;
+        margin-bottom: 10px;
+        width: 76%;
+        border-radius: 10px;
+        display: inline-block !important;
+        margin-bottom: 10px !important;
+    }
+
+    .khadem-radio {
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* border: 1px solid black; */
+        padding: 10px;
+        /* padding-right: 179px; */
+    }
+    textarea {
+        resize: vertical;
+        border-radius: 10px;
+    }
+    .khadem-button input{
+        outline: none;
+        transition: .3s;
+    }
+    .khadem-button input:hover{
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn1:hover {
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn2:hover{
+        /*color: blue;*/
+        /*transition: .2s;*/
+        /*box-shadow: 2px 2px 5px black;*/
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn1 {
+        position: unset !important;
+        right: 49%;
+        outline: none;
+        transition: .3s;
+        /* margin-right: 136px; */
+        margin-left: 200p;
+        margin-right: 200px;
+    }
+
+    #btn2 {
+        right: 5%;
+        outline: none;
+        transition: .3s;
+        margin-top: 524px;
+        /* float: right; */
+        /* margin-right: 190px; */
+        position: unset !important;
+    }
+
+
+    #top-header{
+
+    }
+
+    input[type=submit] {
+        position: relative;
+        top: 506px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /*color: white;*/
+        padding: 11px 23px;;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family:b yekan;
+    }
+
+    .con-tainer{
+        /*width: 960px;*/
+        width: 1000px;
+        margin: auto;
+        height: auto;
+    }
+    .karvan-name {
+        /* padding: 10px 58px; */
+        /*padding: 10px 58px; *!*/
+        padding: 2% 4%;
+        padding-top: 16px;
+    }
+
+    .x{
+        padding-top: 24px;
+    }
+    .karvan-management-sub{
+        margin-top: 0px;
+        height: 100%;
+        padding: 10px 0px;
+    }
+
+    .karvan-sub{
+        margin-top: 24px;
+    }
+
+    .karvan-name-divlable {
+        display: inline-block;
+        width: 34%;
+        font-family: b yekan;
+        font-size: 17px;
+        width: 107% !important;
+    }
+
+    .karvan-sub{
+        /*margin-top: 36px; *!*/
+        margin-top: 0px;
+        height: 100%;
+        padding: 10px 0px;
+
+
+}
+
+    .karvan form {
+        /* margin: 3%; */
+        margin-top: 10%;
+    }
+    .karvan-name input {
+        line-height: normal;
+        border-radius: 6px;
+        /* margin-right: 19%; */
+        height: 30px;
+        border: 2px solid;
+        /*width: width;*/
+        width: 74%;
+    }
+    .eskan-container .border {
+        position: relative;
+        background: wheat;
+        height: 100%;
+        border: 2px solid black;
+        border-radius: 13px;
+        padding: 10px;
+    }
+    .eskan-container .border .karvan-container .karvan-management span {
+        position: absolute;
+        right: 15%;
+        font-size: 24px;
+        background: white;
+        top: -5%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .eskan-container .border .karvan-container .karvan span.span1 {
+        position: absolute;
+        right: 22%;
+        font-size: 24px;
+        background: white;
+        top: -5%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .karvan-container {
+        position: unset !important;
+        width: 100%;
+        height: 58%;
+        /* margin-top: 3%; */
+        /* margin-right: 3%; */
+        /* margin-bottom: -4%; */
+        top: 11%;
+        /* right: 3%; */
+        /* border: 1px solid; */
+        margin: 0px;
+        margin-left: 0px;
+    }
+
+    .karvan-container form {
+        height: 100%;
+    }
+    .karvan {
+        /*position: absolute; *!*/
+        width: 44%;
+        height: 66%;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        /* top: 5%; */
+        margin-top: 50px;
+        /* right: 5%; */
+    }
+    .karvan-management {
+        width: 44%;
+        height: 66%;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        /* top: 5%; */
+        margin-top: 50px;
+        /* right: 5%; */
+    }
+
+    .eskan-container {
+        background: white;
+        width: 80%;
+        height: 600px;
+        /* padding-top: 10%; */
+        padding: 10% 10%;
+        vertical-align: middle;
+    }
+
+}
+@media all and (min-width: 850px) and (max-width: 1028.98px){
+
+    .push-img {
+        position: absolute;
+        top: 127px;
+        right: 20px;
+        height: 313px;
+        width: 353px;
+        background-color: white;
+        border-radius: 60%;
+    }
+    .box3 {
+        position: absolute;
+        top: 62px;
+        right: 414px;
+        height: 321px;
+        width: 414px;
+        /* background-color: white; */
+    }
+    .karvan-name input {
+        line-height: normal;
+        border-radius: 6px;
+        /* margin-right: 19%; */
+        height: 30px;
+        border: 2px solid;
+        width: 96% !important;
+        margin-right: 0%;
+    }
+    .khadem-content{
+        padding-bottom: 0px !important;
+    }
+
+    .khadem-contain{
+        height: auto !important;
+    }
+
+    /*.karvan-sub .karvan-name label{*/
+        /*display: inline-block;*/
+    /*}*/
+    .eskan-button{
+        text-align: center;
+    }
+    .khadem1{
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 40%;
+        /*border: 2px solid black;*/
+        padding: 12px;
+        margin-top: 47px
+    }
+    .khadem2{
+        float: left;
+        display: inline-block;
+        width: 40%;
+        /*border: 2px solid saddlebrown;*/
+        padding: 14px;
+        margin-top: 47px
+    }
+    #btn-khadem1{
+
+    }
+    #btn-khadem2{
+
+    }
+    .btn-khadem {
+        /*position: unset !important;*/
+        top: 72px !important;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /* color: white; */
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: b yekan;
+    }
+
+    .khadem-button input{
+        outline: none;
+        transition: .3s;
+    }
+    .khadem-button input:hover{
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+
+    .khadem-button{
+        margin-top: 0px;
+        margin-right: 24%;
+    }
+
+    .khadem-input{
+        line-height: inherit !important;
+        display: block;
+        margin-bottom: 10px;
+        width: 91%;
+        border-radius: 10px;
+        display: inline-block !important;
+        margin-bottom: 10px !important;
+    }
+
+    .khadem-radio{
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* border: 1px solid black; */
+        padding: 10px;
+        /* padding-right: 179px; */
+    }
+
+    .khadem2 textarea{
+        display: block;
+        float: left;
+        margin-left: 0px !important;
+    }
+    textarea {
+        resize: vertical;
+        border-radius: 10px;
+    }
+    #btn1:hover {
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn2:hover{
+        /*color: blue;*/
+        /*transition: .2s;*/
+        /*box-shadow: 2px 2px 5px black;*/
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn1 {
+        right: 49%;
+        outline: none;
+        transition: .3s;
+        margin-top: 485px;
+        /* margin-right: 144px; */
+        position: unset !important;
+    }
+
+    #btn2{
+        right: 2%;
+        outline: none;
+        transition: .3s;
+        position: unset !important;
+    }
+
+
+    #top-bar {
+        height: 60px;
+        background: grey;
+        width: 100%;
+        /* position: fixed; */
+        z-index: 1;
+    }
+    input[type=submit] {
+        position: relative;
+        top: 506px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /*color: white;*/
+        padding: 11px 23px;;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family:b yekan;
+    }
+    .con-tainer {
+        /* width: 960px; */
+        width: 90%;
+        margin: auto;
+        height: auto;
+        direction: rtl;
+    }
+    .karvan-name {
+        /* padding: 10px 58px; */
+        /*padding: 10px 58px; *!*/
+        padding: 2% 4%;
+        padding-top: 16px;
+    }
+
+    .x{
+        padding-top: 24px;
+    }
+    .karvan-management-sub{
+        margin-top: 0px;
+        height: 100%;
+        padding: 10px 0px;
+    }
+
+    .karvan-sub{
+        margin-top: 24px;
+    }
+
+    .karvan-name-divlable {
+        display: inline-block;
+        width: 34%;
+        font-family: b yekan;
+        font-size: 17px;
+        width: 107% !important;
+    }
+
+    .karvan-sub{
+        /*margin-top: 36px; *!*/
+        margin-top: 0px;
+        height: 100%;
+        padding: 10px 0px;
+
+
+}
+
+    .karvan form {
+        /* margin: 3%; */
+        margin-top: 10%;
+    }
+    .karvan-name input {
+        line-height: normal;
+        border-radius: 6px;
+        /* margin-right: 19%; */
+        height: 30px;
+        border: 2px solid;
+        /*width: width;*/
+        width: 74%;
+    }
+    .eskan-container .border {
+        position: relative;
+        background: wheat;
+        height: 60%;
+        border: 2px solid black;
+        border-radius: 13px;
+        padding: 10px;
+    }
+    .eskan-container .border .karvan-container .karvan-management span {
+        position: absolute;
+        right: 15%;
+        font-size: 24px;
+        background: white;
+        top: -5%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .eskan-container .border .karvan-container .karvan span.span1 {
+        position: absolute;
+        right: 22%;
+        font-size: 24px;
+        background: white;
+        top: -5%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .karvan-container {
+        position: unset !important;
+        width: 100%;
+        height: 58%;
+        /* margin-top: 3%; */
+        /* margin-right: 3%; */
+        /* margin-bottom: -4%; */
+        top: 11%;
+        /* right: 3%; */
+        /* border: 1px solid; */
+        margin: 0px;
+        margin-left: 0px;
+    }
+
+    .karvan-container form {
+        height: 100%;
+    }
+    .karvan {
+        /*position: absolute; *!*/
+        width: 44%;
+        height: 66%;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        /* top: 5%; */
+        margin-top: 50px;
+        /* right: 5%; */
+    }
+    .karvan-management {
+        width: 44%;
+        height: 66%;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        /* top: 5%; */
+        margin-top: 50px;
+        /* right: 5%; */
+    }
+    .eskan-container {
+        background: white;
+        width: 80%;
+        height: 930px;
+        /* padding-top: 10%; */
+        padding: 10% 10%;
+        vertical-align: middle;
+    }
+
+}
+@media all and (min-width: 750px) and (max-width: 849.98px){
+    .push-img {
+        position: absolute;
+        top: 124px;
+        right: 57px;
+        height: 200px;
+        width: 219px;
+        background-color: white;
+        border-radius: 60%;
+    }
+    .box3 {
+        position: absolute;
+        top: 5px;
+        right: 313px;
+        /* height: 262px; */
+        width: 381px;
+        /* background-color: white; */
+    }
+    .box-content3 {
+        padding: 10px 0px;
+        direction: rtl;
+        font-size: 26px;
+        position: relative;
+    }
+    .box-color {
+        height: 314px;
+        background: white;
+        opacity: .3;
+    }
+    .box-paragraph {
+        position: absolute;
+        top: 0;
+        font-family: b yekan;
+        padding: 0px 5px;
+    }
+    .box-link {
+        background-color: #16A085;
+        /* width: 100%; */
+        color: white;
+        display: block;
+        padding: 0px 0px;
+        text-align: center;
+        /* padding-top: 17px; */
+        text-decoration: none;
+        font-size: 27px;
+        vertical-align: center;
+        height: 15%;
+        font-family: b yekan;
+    }
+    .karvan-name input {
+        line-height: normal;
+        border-radius: 6px;
+        /* margin-right: 19%; */
+        height: 30px;
+        border: 2px solid;
+        width: 98% !important;
+        margin-right: -2% !important;
+    }
+    .eskan-container .border span.khadem-span {
+        position: absolute;
+        right: 21%;
+        font-size: 30px;
+        background: white;
+        top: -3%;
+        padding: 0px 6px;
+        font-family: b yekan;
+    }
+    .khadem-contain{
+        height: auto !important;
+    }
+    .khadem1{
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 100%;
+        /* border: 2px solid black; */
+        padding: 12px;
+        margin-top: 47px;
+    }
+    .khadem2{
+        /*float: left; *!*/
+        display: inline-block;
+        width: 100%;
+        /* border: 2px solid saddlebrown; */
+        padding: 12px;
+        margin-top: 0px;
+    }
+    #btn-khadem1{
+
+    }
+    #btn-khadem2{
+
+    }
+    .btn-khadem {
+        /*position: unset !important;*/
+        top: 72px !important;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /* color: white; */
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: b yekan;
+    }
+
+    .khadem-button{
+        margin-top: 0px;
+        margin-right: 0%;
+    }
+
+    .khadem-input{
+        line-height: inherit !important;
+        display: block;
+        margin-bottom: 10px;
+        width: 92%;
+        border-radius: 10px;
+        display: inline-block !important;
+        margin-bottom: 10px !important;
+    }
+
+    /*.khadem-button #btn-khadem1{*/
+    /*top: 10px !important;*/
+    /*}*/
+
+    /*.khadem-button #btn-khadem2{*/
+    /*top: 8px !important;*/
+    /*}*/
+
+    .khadem-button input{
+        position: unset !important;
+        top: 743px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        width: 100% !important;
+        /* display: block; */
+        /* color: white; */
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 17px;
+        margin: 4px 2px;
+        cursor: pointer;
+        padding: 0;
+        font-family: b yekan;
+        border-radius: 8px;
+        outline: none;
+        transition: .3s;
+    }
+
+    .khadem-button input:hover{
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+
+    #address{
+        display: block;
+        width: 91%;
+    }
+
+    .khadem2 input {
+        margin-right: 0px !important;
+    }
+
+    .khadem2 textarea{
+        display: block;
+        float: unset !important;
+        width: 91%;
+        /* margin-left: 29px; */
+    }
+    .khadem-radio{
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* border: 1px solid black; */
+        padding: 10px;
+        /* padding-right: 179px; */
+    }
+    textarea {
+        resize: vertical;
+        border-radius: 10px;
+    }
+    #btn1:hover {
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn2:hover{
+        /*color: blue;*/
+        /*transition: .2s;*/
+        /*box-shadow: 2px 2px 5px black;*/
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn1 {
+        width: 100%;
+        /* right: 49%; */
+        outline: none;
+        transition: .3s;
+        border-radius: 10px;
+    }
+
+    #btn2{
+        /*right: 2%; *!*/
+        border-radius: 10px;
+        width: 100%;
+        outline: none;
+        transition: .3s;
+    }
+
+
+    input[type=submit] {
+        position: relative;
+        top: 506px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /*color: white;*/
+        padding: 11px 23px;;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family:b yekan;
+    }
+    .con-tainer{
+        /*width: 960px;*/
+        width: 90%;
+        margin: auto;
+        height: auto;
+    }
+    .karvan-name {
+        /* padding: 10px 58px; */
+        /*padding: 10px 58px; *!*/
+        padding: 2% 4%;
+        padding-top: 16px;
+    }
+
+    .x{
+        padding-top: 24px;
+    }
+    .karvan-management-sub{
+        margin-top: 0px;
+        height: 100%;
+        padding: 10px 0px;
+    }
+
+    .karvan-sub{
+        margin-top: 24px;
+    }
+
+    .karvan-name-divlable {
+        display: inline-block;
+        width: 34%;
+        font-family: b yekan;
+        font-size: 17px;
+        width: 107% !important;
+    }
+
+    .karvan-sub{
+        /*margin-top: 36px; *!*/
+        margin-top: 0px;
+        height: 100%;
+        padding: 10px 0px;
+
+
+}
+
+    .karvan form {
+        /* margin: 3%; */
+        margin-top: 10%;
+    }
+    .karvan-name input {
+        line-height: normal;
+        border-radius: 6px;
+        /* margin-right: 19%; */
+        height: 30px;
+        border: 2px solid;
+        /*width: width;*/
+        width: 74%;
+    }
+    .eskan-container .border {
+        position: relative;
+        background: wheat;
+        height: 60%;
+        border: 2px solid black;
+        border-radius: 13px;
+        padding: 10px;
+    }
+    .eskan-container .border .karvan-container .karvan-management span {
+        position: absolute;
+        width: 72%;
+        right: 10%;
+        text-align: center;
+        font-size: 20px;
+        background: white;
+        top: -5%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .eskan-container .border .karvan-container .karvan span.span1 {
+        position: absolute;
+        right: 22%;
+        font-size: 20px;
+        background: white;
+        top: -5%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .karvan-container {
+        position: unset !important;
+        width: 100%;
+        height: 58%;
+        /* margin-top: 3%; */
+        /* margin-right: 3%; */
+        /* margin-bottom: -4%; */
+        top: 11%;
+        /* right: 3%; */
+        /* border: 1px solid; */
+        margin: 0px;
+        margin-left: 0px;
+    }
+
+    .karvan-container form {
+        height: 100%;
+    }
+    .karvan {
+        /*position: absolute; *!*/
+        width: 44%;
+        height: 66%;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        /* top: 5%; */
+        margin-top: 50px;
+        /* right: 5%; */
+    }
+    .karvan-management {
+        width: 44%;
+        height: 66%;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        /* top: 5%; */
+        margin-top: 50px;
+        /* right: 5%; */
+    }
+    .eskan-container {
+        background: white;
+        width: 80%;
+        height: 1013px;
+        /* padding-top: 10%; */
+        padding: 10% 10%;
+        vertical-align: middle;
+    }
+
+}
+@media all and (min-width: 620px) and (max-width: 749.98px){
+    .push-img {
+        position: absolute;
+        top: 105px;
+        right: 41px;
+        height: 170px;
+        width: 201px;
+        background-color: white;
+        border-radius: 60%;
+    }
+    .box3 {
+        position: absolute;
+        top: 19px;
+        right: 254px;
+        height: 350px;
+        width: 338px;
+        /* background-color: white; */
+    }
+    .box-content3 {
+        padding: 10px 0px;
+        direction: rtl;
+        font-size: 20px;
+        position: relative;
+    }
+    .box-color {
+        height: 202px;
+        background: white;
+        opacity: .3;
+    }
+    .box-paragraph {
+        position: absolute;
+        top: 0;
+        font-family: b yekan;
+        padding: 0px 5px;
+    }
+    .box-link {
+        background-color: #16A085;
+        /* width: 100%; */
+        color: white;
+        display: block;
+        padding: 0px 0px;
+        padding-top: 17px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        vertical-align: center;
+        height: 15%;
+        font-family: b yekan;
+    }
+    .karvan-name input {
+        line-height: normal;
+        border-radius: 6px;
+        /* margin-right: 19%; */
+        height: 30px;
+        width: 97% !important;
+        border: 2px solid;
+        margin-right: -2% !important;
+    }
+    .eskan-container .border span.khadem-span {
+        position: absolute;
+        right: 21%;
+        font-size: 30px;
+        background: white;
+        top: -3%;
+        padding: 0px 6px;
+        font-family: b yekan;
+    }
+    .khadem-contain{
+        height: auto !important;
+    }
+    .khadem1{
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 100%;
+        /* border: 2px solid black; */
+        padding: 12px;
+        margin-top: 47px;
+    }
+    .khadem2{
+        /*float: left; *!*/
+        display: inline-block;
+        width: 100%;
+        /* border: 2px solid saddlebrown; */
+        padding: 12px;
+        margin-top: 0px;
+    }
+    #btn-khadem1{
+
+    }
+    #btn-khadem2{
+
+    }
+    .btn-khadem {
+        /*position: unset !important;*/
+        top: 72px !important;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /* color: white; */
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: b yekan;
+    }
+
+    .khadem-button{
+        margin-top: 0px;
+        margin-right: 0%;
+    }
+
+    .khadem-input{
+        line-height: inherit !important;
+        display: block;
+        margin-bottom: 10px;
+        width: 92%;
+        border-radius: 10px;
+        display: inline-block !important;
+        margin-bottom: 10px !important;
+    }
+
+    /*.khadem-button #btn-khadem1{*/
+    /*top: 10px !important;*/
+    /*}*/
+
+    /*.khadem-button #btn-khadem2{*/
+    /*top: 8px !important;*/
+    /*}*/
+
+    .khadem-button input{
+        position: unset !important;
+        top: 743px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        width: 100% !important;
+        /* display: block; */
+        /* color: white; */
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 17px;
+        margin: 4px 2px;
+        cursor: pointer;
+        padding: 0;
+        font-family: b yekan;
+        border-radius: 8px;
+        outline: none;
+        transition: .3s;
+    }
+
+    .khadem-button input:hover{
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+
+    #address{
+        display: block;
+        width: 91%;
+    }
+
+    .khadem2 input {
+        margin-right: 0px !important;
+    }
+
+    .khadem2 textarea{
+        display: block;
+        float: unset !important;
+        width: 91%;
+        /* margin-left: 29px; */
+    }
+    .khadem-radio{
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* border: 1px solid black; */
+        padding: 10px;
+        /* padding-right: 179px; */
+    }
+    textarea {
+        resize: vertical;
+        border-radius: 10px;
+    }
+    #btn1:hover {
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn2:hover{
+        /*color: blue;*/
+        /*transition: .2s;*/
+        /*box-shadow: 2px 2px 5px black;*/
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn1 {
+        width: 100%;
+        /* right: 49%; */
+        outline: none;
+        transition: .3s;
+        border-radius: 10px;
+    }
+
+    #btn2{
+        width: 100%;
+        /* right: 2%; */
+        outline: none;
+        transition: .3s;
+        border-radius: 10px;
+    }
+
+    #top-bar{
+        direction: rtl;
+    }
+
+    #footer{
+        direction: rtl;
+    }
+
+
+    input[type=submit] {
+        position: relative;
+        top: 506px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /*color: white;*/
+        padding: 11px 23px;;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family:b yekan;
+    }
+    .con-tainer{
+        /*width: 960px;*/
+        width: 90%;
+        margin: auto;
+        height: 800px;
+        direction: rtl;
+    }
+    .karvan-name {
+        /* padding: 10px 58px; */
+        /*padding: 10px 58px; *!*/
+        padding: 2% 4%;
+        padding-top: 16px;
+    }
+
+    .x{
+        padding-top: 24px;
+    }
+    .karvan-management-sub{
+        margin-top: 0px;
+        height: 100%;
+        padding: 10px 0px;
+    }
+
+    .karvan-sub{
+        margin-top: 24px;
+    }
+
+    .karvan-name-divlable {
+        display: inline-block;
+        width: 34%;
+        font-family: b yekan;
+        font-size: 17px;
+        width: 107% !important;
+    }
+
+    .karvan-sub{
+        /*margin-top: 36px; *!*/
+        margin-top: 0px;
+        height: 100%;
+        padding: 10px 0px;
+
+
+}
+
+    .karvan form {
+        /* margin: 3%; */
+        margin-top: 10%;
+    }
+    .karvan-name input {
+        line-height: normal;
+        border-radius: 6px;
+        /* margin-right: 19%; */
+        height: 30px;
+        border: 2px solid;
+        /*width: width;*/
+        width: 74%;
+    }
+    .eskan-container .border {
+        position: relative;
+        background: wheat;
+        height: 60%;
+        border: 2px solid black;
+        border-radius: 13px;
+        padding: 10px;
+    }
+    .eskan-container .border .karvan-container .karvan-management span {
+        position: absolute;
+        right: 14%;
+        font-size: 18px;
+        background: white;
+        top: -4%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .eskan-container .border .karvan-container .karvan span.span1 {
+        position: absolute;
+        right: 21%;
+        font-size: 18px;
+        background: white;
+        top: -4%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .karvan-container {
+        position: unset !important;
+        width: 100%;
+        height: 58%;
+        /* margin-top: 3%; */
+        /* margin-right: 3%; */
+        /* margin-bottom: -4%; */
+        top: 11%;
+        /* right: 3%; */
+        /* border: 1px solid; */
+        margin: 0px;
+        margin-left: 0px;
+    }
+
+    .karvan-container form {
+        height: 100%;
+    }
+    .karvan {
+        /*position: absolute; *!*/
+        width: 44%;
+        height: 66%;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        /* top: 5%; */
+        margin-top: 50px;
+        /* right: 5%; */
+    }
+    .karvan-management {
+        width: 44%;
+        height: 66%;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        /* top: 5%; */
+        margin-top: 50px;
+        /* right: 5%; */
+    }
+
+    .eskan-container {
+        background: white;
+        width: 80%;
+        height: 1013px;
+        /* padding-top: 10%; */
+        padding: 10% 10%;
+        vertical-align: middle;
+    }
+
+}
+@media all and (min-width: 500.01px) and (max-width: 619.98px){
+    .push-img {
+        position: absolute;
+        top: 50px;
+        right: 27px;
+        height: 181px;
+        width: 196px;
+        background-color: white;
+        border-radius: 60%;
+    }
+    .box3 {
+        position: absolute;
+        top: 25px;
+        right: 233px;
+        height: 350px;
+        width: 241px;
+        /* background-color: white; */
+    }
+    .karvan-name input {
+        line-height: normal;
+        border-radius: 6px;
+        /* margin-right: 19%; */
+        height: 30px;
+        border: 2px solid;
+        width: 95% !important;
+        margin-right: -2%;
+    }
+
+    .eskan-form-container{
+        height: 1013px !important;
+        padding-bottom: 0px !important;
+    }
+    .karvan-span{
+        font-size: 17px !important;
+        right: 16% !important;
+        top: -4% !important;
+
+    }
+    .karvan-span2{
+        font-size: 17px !important;
+        right: 9% !important;
+        top: -4% !important;
+    }
+    .eskan-button-btn1{
+        width: 100%;
+        border-radius: 10px;
+        right: 0px !important;
+    }
+    .eskan-button-btn2{
+        width: 100%;
+        border-radius: 10px;
+        right: 0px !important;
+    }
+    .eskan-container .border span.khadem-span {
+        position: absolute;
+        right: 21%;
+        font-size: 30px;
+        background: white;
+        top: -2%;
+        padding: 0px 6px;
+        font-family: b yekan;
+    }
+    .eskan-container .border span.khadem-span {
+        position: absolute;
+        right: 21%;
+        font-size: 30px;
+        background: white;
+        top: -3%;
+        padding: 0px 6px;
+        font-family: b yekan;
+    }
+    .khadem1{
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 100%;
+        /* border: 2px solid black; */
+        padding: 12px;
+        margin-top: 47px;
+    }
+    .khadem2{
+        /*float: left; *!*/
+        display: inline-block;
+        width: 100%;
+        /* border: 2px solid saddlebrown; */
+        padding: 12px;
+        margin-top: 0px;
+    }
+    #btn-khadem1{
+
+    }
+    #btn-khadem2{
+
+    }
+    .btn-khadem {
+        /*position: unset !important;*/
+        top: 72px !important;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /* color: white; */
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: b yekan;
+    }
+
+    .khadem-button{
+        margin-top: 0px;
+        margin-right: 0%;
+    }
+
+    .khadem-input{
+        line-height: inherit !important;
+        display: block;
+        margin-bottom: 10px;
+        width: 92%;
+        border-radius: 10px;
+        display: inline-block !important;
+        margin-bottom: 10px !important;
+    }
+
+    /*.khadem-button #btn-khadem1{*/
+        /*top: 10px !important;*/
+    /*}*/
+
+    /*.khadem-button #btn-khadem2{*/
+        /*top: 8px !important;*/
+    /*}*/
+
+    .khadem-button input{
+        position: unset !important;
+        top: 743px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        width: 100% !important;
+        /* display: block; */
+        /* color: white; */
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 17px;
+        margin: 4px 2px;
+        cursor: pointer;
+        padding: 0;
+        font-family: b yekan;
+        border-radius: 8px;
+        outline: none;
+        transition: .3s;
+    }
+
+    .khadem-button input:hover{
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+
+    #address{
+        display: block;
+        width: 91%;
+    }
+
+    .khadem2 input {
+        margin-right: 0px !important;
+    }
+
+    .khadem2 textarea{
+        display: block;
+        float: unset !important;
+        width: 91%;
+        /* margin-left: 29px; */
+    }
+    .khadem-radio{
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* border: 1px solid black; */
+        padding: 10px;
+        /* padding-right: 179px; */
+    }
+    textarea {
+        resize: vertical;
+        border-radius: 10px;
+    }
+    #btn1:hover {
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn2:hover{
+        /*color: blue;*/
+        /*transition: .2s;*/
+        /*box-shadow: 2px 2px 5px black;*/
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn1 {
+        right: 49%;
+        outline: none;
+        transition: .3s;
+    }
+
+    #btn2{
+        right: 2%;
+        outline: none;
+        transition: .3s;
+    }
+
+
+    input[type=submit] {
+        position: relative;
+        top: 506px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /*color: white;*/
+        padding: 11px 23px;;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family:b yekan;
+    }
+    .con-tainer{
+        /*width: 960px;*/
+        width: 90%;
+        margin: auto;
+        height: auto;
+    }
+    .karvan-name {
+        /* padding: 10px 58px; */
+        /*padding: 10px 58px; *!*/
+        padding: 2% 4%;
+        padding-top: 16px;
+    }
+
+    .x{
+        padding-top: 24px;
+    }
+    .karvan-management-sub{
+        margin-top: 0px;
+        height: 100%;
+        padding: 10px 0px;
+    }
+
+    .karvan-sub{
+        margin-top: 24px;
+    }
+
+    .karvan-name-divlable {
+        display: inline-block;
+        width: 34%;
+        font-family: b yekan;
+        font-size: 17px;
+        width: 107% !important;
+    }
+
+    .karvan-sub{
+        /*margin-top: 36px; *!*/
+        margin-top: 0px;
+        height: 100%;
+        padding: 10px 0px;
+
+
+}
+
+    .karvan form {
+        /* margin: 3%; */
+        margin-top: 10%;
+    }
+    .karvan-name input {
+        line-height: normal;
+        border-radius: 6px;
+        /* margin-right: 19%; */
+        height: 30px;
+        border: 2px solid;
+        /*width: width;*/
+        width: 74%;
+    }
+    .eskan-container .border {
+        position: relative;
+        background: wheat;
+        height: 60%;
+        border: 2px solid black;
+        border-radius: 13px;
+        padding: 10px;
+    }
+    .eskan-container .border .karvan-container .karvan-management span {
+        position: absolute;
+        right: 15%;
+        font-size: 24px;
+        background: white;
+        top: -5%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .eskan-container .border .karvan-container .karvan span.span1 {
+        position: absolute;
+        right: 22%;
+        font-size: 24px;
+        background: white;
+        top: -5%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .karvan-container {
+        position: unset !important;
+        width: 100%;
+        height: 58%;
+        /* margin-top: 3%; */
+        /* margin-right: 3%; */
+        /* margin-bottom: -4%; */
+        top: 11%;
+        /* right: 3%; */
+        /* border: 1px solid; */
+        margin: 0px;
+        margin-left: 0px;
+    }
+
+    .karvan-container form {
+        height: 100%;
+    }
+    .karvan {
+        /*position: absolute; *!*/
+        width: 44%;
+        height: 66%;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        /* top: 5%; */
+        margin-top: 50px;
+        /* right: 5%; */
+    }
+    .karvan-management {
+        width: 44%;
+        height: 66%;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        /* top: 5%; */
+        margin-top: 50px;
+        /* right: 5%; */
+    }
+
+}
+@media all and (max-width: 500px){
+    .push-img {
+        position: absolute;
+        top: 60px;
+        right: 27px;
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        border-radius: 60%;
+    }
+    .box3 {
+        position: absolute;
+        top: 10px;
+        right: 152px;
+        height: 263px;
+        width: 175px;
+        /* background-color: white; */
+    }
+    .box-content3 {
+        padding: 3px 0px;
+        direction: rtl;
+        font-size: 12px;
+        position: relative;
+    }
+    .box-color {
+        height: 146px;
+        background: white;
+        opacity: .3;
+    }
+    .box-paragraph {
+        position: absolute;
+        top: 0;
+        font-family: b yekan;
+        padding: 0px 5px;
+    }
+    .box-link {
+        background-color: #16A085;
+        /*width: -44%;*/
+        color: white;
+        display: block;
+        padding: 0px 0px;
+        text-align: center;
+        padding-top: 0px;
+        text-decoration: none;
+        font-size: 12px;
+        /*vertical-align: center;*/
+        height: 9%;
+        font-family: b yekan;
+    }
+    .eskan-button-btn1{
+        border-radius: 10px;
+        width: 100% !important;
+        right: 0% !important;
+    }
+    .eskan-button-btn2{
+        border-radius: 10px;
+        width: 100% !important;
+        right: 0% !important;
+    }
+
+    #footer {
+        background: #2e4053;
+        float: right;
+        width: 100%;
+        /* height: 600px; */
+        direction: rtl;
+    }
+    .khadem-button input:hover{
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    .khadem1{
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 100%;
+        /* border: 2px solid black; */
+        padding: 12px;
+        margin-top: 47px;
+    }
+    .khadem2{
+        /*float: left; *!*/
+        display: inline-block;
+        width: 100%;
+        /* border: 2px solid saddlebrown; */
+        padding: 12px;
+        margin-top: 0px;
+    }
+    #btn-khadem1{
+
+    }
+    #btn-khadem2{
+
+    }
+    .btn-khadem {
+        /*position: unset !important;*/
+        top: -5px !important;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /* color: white; */
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: b yekan;
+    }
+
+    .khadem-button{
+        margin-top: 0px;
+        margin-right: 0%;
+    }
+
+    .khadem-input{
+        line-height: inherit !important;
+        display: block;
+        margin-bottom: 10px;
+        width: 89%;
+        border-radius: 10px;
+        display: block !important;
+        margin-bottom: 10px !important;
+    }
+
+    .khadem-button input{
+        position: relative;
+        top: 743px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        width: 100% !important;
+        /* display: block; */
+        /* color: white; */
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 17px;
+        margin: 4px 2px;
+        cursor: pointer;
+        padding: 0;
+        font-family: b yekan;
+        border-radius: 8px;
+        outline: none;
+        transition: .3s;
+    }
+
+    #address{
+        display: block;
+        width: 91%;
+    }
+
+    .khadem2 input {
+        margin-right: 0px !important;
+    }
+
+    .khadem2 textarea{
+        display: block;
+         float: unset !important;
+        width: 91%;
+        /* margin-left: 29px; */
+    }
+    .khadem-radio{
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* border: 1px solid black; */
+        padding: 10px;
+        /* padding-right: 179px; */
+    }
+    textarea {
+        resize: vertical;
+        border-radius: 10px;
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .con-tainer{
+        /*width: 960px;*/
+        width: 100%;
+        margin: auto;
+        height: auto;
+        /*display: none;*/
+        direction: rtl;
+    }
+
+    #top-bar {
+        height: auto;
+        background: grey;
+        width: 100%;
+        /* position: fixed; */
+        z-index: 1;
+        direction: rtl;
+    }
+
+    #top-bar #top-right-menu {
+        float: right;
+        width: 100%;
+    }
+
+    #top-bar #top-right-menu ul {
+        /*display: grid; *!*/
+        width: 100%;
+        /* margin-right: 17px; */
+        padding: 10px;
+    }
+
+    #top-bar #top-right-menu ul li {
+        float: right;
+        /* margin-left: 10px; */
+        margin-bottom: 10px;
+        display: block;
+        background: transparent;
+        text-align: center;
+    }
+
+    .karvan-name {
+        /* padding: 10px 58px; */
+        padding: 3% 4%;
+    }
+
+    .karvan-management-sub{
+        margin-top: 24px;
+    }
+
+    .karvan-sub{
+        margin-top: 24px;
+    }
+
+    .eskan-container {
+        background: white;
+        width: 80%;
+        height: 1000px;
+        /* padding-top: 10%; */
+        padding: 10% 10%;
+        /* vertical-align: middle; */
+        /* display: flex; */
+    }
+
+    .eskan-container .border {
+        position: relative;
+        background: wheat;
+        height: 92%;
+        border: 2px solid black;
+        border-radius: 13px;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+    }
+
+    .karvan-name-divlable {
+        display: inline-block;
+        width: 43%;
+        font-family: b yekan;
+        font-size: 15px;
+    }
+    .karvan form {
+        /* margin: 3%; */
+        margin-top: 10%;
+    }
+    .karvan-name input {
+        line-height: normal;
+        border-radius: 6px;
+        margin-right: -1%;
+        height: 30px;
+        width: 96%;
+        border: 2px solid;
+    }
+    .eskan-container .border .karvan-container .karvan-management span {
+
+        top: -5%;
+        position: absolute;
+        text-align: center;
+        right: 6%;
+        font-size: 23px;
+        background: white;
+        /*top: -2%;*/
+        width: 81%;
+        padding: 0px 7px;
+        height: 41px;
+        font-family: b yekan;
+    }
+    .eskan-container .border .karvan-container .karvan span.span1 {
+        position: absolute;
+        right: 22%;
+        font-size: 24px;
+        background: white;
+        top: -5%;
+        padding: 0px 6px;
+        font-family: "B Yekan";
+    }
+    .karvan-container {
+        position: relative;
+        width: 93%;
+        height: 35%;
+        /* margin-top: 3%; */
+        /* margin-right: 3%; */
+        /* margin-bottom: -4%; */
+        top: 11%;
+        right: 3%;
+        /* border: 1px solid; */
+    }
+    .karvan {
+        position: absolute;
+        width: 100%;
+        display: block;
+        height: auto;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        top: -15%;
+        right: 0%;
+    }
+    .karvan-management {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        margin-right: 0% !important;
+        border: 1px solid black;
+        border-radius: 20px;
+        /* margin-top: 4%; */
+        top: 117%;
+        /* left: 59%; */
+        right: 0%;
+    }
+
+    .karvan-container form{
+        height: auto;
+    }
+    .eskan-container .border span.span2 {
+        position: absolute;
+        text-align: center;
+        right: 6%;
+        font-size: 23px;
+        background: white;
+        top: -2%;
+        width: 81%;
+        padding: 0px 7px;
+        height: 41px;
+        font-family: b yekan;
+    }
+    #btn1:hover {
+            color: white;
+            background: blue;
+            transition: .2s;
+            box-shadow: 4px 4px 3px grey;
+        }
+    #btn2:hover{
+            /*color: blue;*/
+            /*transition: .2s;*/
+            /*box-shadow: 2px 2px 5px black;*/
+            color: white;
+            background: blue;
+            transition: .2s;
+            box-shadow: 4px 4px 3px grey;
+        }
+    #btn1 {
+        right: 9%;
+        outline: none;
+        transition: .3s;
+    }
+    #btn2{
+        right: 9%;
+        outline: none;
+        transition: .3s;
+    }
+    input[type=submit] {
+        position: relative;
+        top: 743px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        width: 80%;
+        /* display: block; */
+        /* color: white; */
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 17px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: b yekan;
+    }
+
+
+}
+@media all and (min-width: 1472px){
+    .karvan-name input {
+        line-height: normal;
+        border-radius: 6px;
+        margin-right: 7%;
+        height: 30px;
+        display: inline-block !important;
+        width: 52%;
+        border: 2px solid;
+        outline: none;
+    }
+    .khadem-button input{
+        outline: none;
+        transition: .3s;
+    }
+    .khadem-button input:hover{
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+    #btn1{
+        right: 574px;
+        outline: none;
+        transition: .3s;
+    }
+
+    .karvan-name:active{
+        background: gray;
+    }
+
+
+    #btn1:hover {
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+
+    .eskan-container .border {
+        position: relative;
+        background: whte;
+        height: 550px;
+        border: 2px solid black;
+        border-radius: 13px;
+    }
+
+    .eskan-container {
+        background: white;
+        width: 1200px;
+        height: auto;
+        /* padding-top: 10%; */
+        padding: 10% 10%;
+        vertical-align: middle;
+    }
+
+    .karvan {
+        position: absolute;
+        width: 39%;
+        height: 310px;
+        /* right: 14%; */
+        /* margin: 0px 2% 0px 0px; */
+        /* padding: 0px 3%; */
+        border-radius: 20px;
+        border: 1px solid black;
+        top: 5%;
+        right: 5%;
+    }
+
+    .karvan-management {
+        position: absolute;
+        width: 39%;
+        height: 310px;
+        margin-right: 42%;
+        border: 1px solid black;
+        border-radius: 20px;
+        /* margin-top: 4%; */
+        top: 5%;
+        left: 5%;
+    }
+
+    input[type=submit] {
+        position: relative;
+        top: 506px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /*color: white;*/
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family:b yekan;
+    }
+
+    #btn2{
+        right: 190px;
+        outline: none;
+        transition: .3s;
+    }
+
+    #btn2:hover{
+        /*color: blue;*/
+        /*transition: .2s;*/
+        /*box-shadow: 2px 2px 5px black;*/
+        color: white;
+        background: blue;
+        transition: .2s;
+        box-shadow: 4px 4px 3px grey;
+    }
+
+    .con-tainer {
+        /*background: red;*/
+        width: 1536px;
+        height: auto;
+    }
+    .khadem1{
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 40%;
+        /*border: 2px solid black;*/
+        padding: 12px;
+        margin-top: 47px
+    }
+    .khadem2{
+        float: left;
+        display: inline-block;
+        width: 40%;
+        /*border: 2px solid saddlebrown;*/
+        padding: 14px;
+        margin-top: 47px
+    }
+    input[type="text"] {
+        line-height: normal;
+        display: block;
+        margin-bottom: 10px;
+    }
+    #btn-khadem1{
+
+    }
+    #btn-khadem2{
+
+    }
+    .btn-khadem {
+        /*position: unset !important;*/
+        top: 72px !important;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        /* color: white; */
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: b yekan;
+    }
+
+    .khadem-button{
+        margin-top: 0px;
+        margin-right: 370px;
+    }
+
+    .khadem-input{
+        line-height: inherit !important;
+        display: block;
+        margin-bottom: 10px;
+        width: 56%;
+        border-radius: 10px;
+        display: inline-block !important;
+        margin-bottom: 10px !important;
+    }
+
+    .khadem-radio{
+        display: flex;
+        /*flex-wrap: wrap;*/
+        /* border: 1px solid black; */
+        padding: 10px;
+        /*padding-right: 179px;*/
+    }
+    textarea {
+        resize: vertical;
+        border-radius: 10px;
+    }
+    .eskan-container-eskan{
+        background: white;
+        width: 1200px;
+        height: auto;
+        /* padding-top: 10%; */
+        padding: 10% 10%;
+        vertical-align: middle;
+    }
+
+}
+
+
+}
+
